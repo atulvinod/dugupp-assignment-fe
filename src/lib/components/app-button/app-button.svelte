@@ -11,7 +11,7 @@
 <button
     on:click={onClick}
     class={clsx(
-        "flex items-center justify-center  rounded-lg w-fit h-fit",
+        "flex items-center justify-center  rounded-sm w-fit h-fit",
         variant == "cta"
             ? "border-2 border-[#4d4d4d] app-button-button_cta px-4"
             : "px-6"

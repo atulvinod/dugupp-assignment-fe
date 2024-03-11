@@ -8,8 +8,7 @@ import betterUpSocialImg from "$lib/assets/betterhelp-social-icon.svg";
 import { User, Post, PostEvent, TimelineBase, TimelineEventType,JobEvent, JobEventType } from "../lib/models";
 
 export function load() {
-    const response: { user?: User | null; timeline: TimelineBase[] } = {
-        user: null,
+    const response: { user: User; timeline: TimelineBase[] } = {
         timeline: [],
     };
     response.user = new User(

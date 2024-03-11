@@ -21,7 +21,7 @@
             {#each postEvent.posts as p}
                 <div class="rounded-xl w-80 h-56 app-border border-gray-400 overflow-hidden flex flex-col m-5">
                     <div class="flex-1">
-                        <img src={p.postImageSrc}/>
+                        <img src={p.postImageSrc} alt="post"/>
                     </div>
                     <p class="p-6 text-sm">
                         {p.postTitle}

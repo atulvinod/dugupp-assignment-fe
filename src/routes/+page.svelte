@@ -4,7 +4,7 @@ import UserDescrption from "$lib/components/user-description/user-description.sv
     export let data;
 </script>
 <section class="mt-10">
-    <div class="mx-44">
+    <div>
         <UserDescrption user={data.user}/>
     </div>
     <div class="mt-4">

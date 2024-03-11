@@ -10,7 +10,17 @@
 
 <div class="relative">
     <div class="flex absolute z-[1] h-full w-full">
-        <div class="timeline-left-background"></div>
+        <div class="timeline-left-background flex justify-end">
+            <div style="width: 5px;">
+                <svg xmlns="http://www.w3.org/2000/svg" style="height:100%">
+                    <pattern id="bg" patternUnits="userSpaceOnUse" width="8" height="12">
+                        <circle fill="blue" cx="8" cy="0" r="6" />
+                    </pattern>
+                    <rect width="5" height="100%" fill="url(#bg)" />
+                </svg>
+            </div>
+            
+        </div>
         <div style="flex-1"></div>
     </div>
 

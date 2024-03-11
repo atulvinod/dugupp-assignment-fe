@@ -12,7 +12,7 @@
 }
 
 .timeline-left-content-width{
-    width: calc(16.5% + 1.1rem)
+    width: calc(16.5% + 1rem)
 }
 
 .timeline-dot-container-width{
@@ -21,7 +21,6 @@
 
 .timeline-left-background{
     width: 16.5%;
-    border-right: 2px dotted #778fb1;
 }
 
 
