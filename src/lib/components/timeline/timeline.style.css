@@ -1,0 +1,30 @@
+.timeline {
+    position: relative;
+}
+
+
+.foreground {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.timeline-left-content-width{
+    width: calc(16.5% + 1.1rem)
+}
+
+.timeline-dot-container-width{
+    width: 2.3rem;
+}
+
+.timeline-left-background{
+    width: 16.5%;
+    border-right: 2px dotted #778fb1;
+}
+
+
+.timeline-job-event{
+    box-shadow: 0px 1px 2px 0px #dbe5f5;
+}
