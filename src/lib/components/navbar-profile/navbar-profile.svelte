@@ -7,5 +7,5 @@
         <img src={userLogo} class="object-fit" alt="current-user"/>
     </div>
     <span class="mx-3">Krishna Kiran</span>
-    <ChevronDown class="mx-2"/>
+    <ChevronDown class="mx-2 cursor-pointer"/>
 </div>

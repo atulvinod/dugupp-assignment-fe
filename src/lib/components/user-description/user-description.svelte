@@ -34,7 +34,7 @@
                         <a href={user.websiteURL}>
                             <span class="flex items-center text-sm text-app-light-grey">My website <ExternalLinkIcon class="h-5 w-5 ml-1"/></span>
                         </a>
-                        <MoreHorizontal class="ml-3 text-app-grey"/>
+                        <MoreHorizontal class="ml-3 text-app-grey cursor-pointer"/>
                     </div>
                 </div>
              
