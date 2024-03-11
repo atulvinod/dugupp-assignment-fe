@@ -13,10 +13,10 @@
         <div class="timeline-left-background flex justify-end">
             <div style="width: 5px;">
                 <svg xmlns="http://www.w3.org/2000/svg" style="height:100%">
-                    <pattern id="bg" patternUnits="userSpaceOnUse" width="8" height="12">
-                        <circle fill="blue" cx="8" cy="0" r="6" />
+                    <pattern id="bg2" patternUnits="userSpaceOnUse" width="8" height="12">
+                        <circle fill="#778fb1" cx="2" cy="8" r="1.5" />
                     </pattern>
-                    <rect width="5" height="100%" fill="url(#bg)" />
+                    <rect width="5" height="100%" fill="url(#bg2)" />
                 </svg>
             </div>
             
