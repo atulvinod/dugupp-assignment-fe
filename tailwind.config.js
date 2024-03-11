@@ -15,9 +15,9 @@ const config = {
 		},
 		extend: {
 			colors: {
-				"app-grey":'#7a9299',
-				"app-light-grey":"#4d4d4d",
-				"app-light-black":"#4B5C6D",
+				"app-grey": 'var(--app-grey)',
+				"app-light-grey": "var(--app-light-grey)",
+				"app-light-black": "var(--app-light-black)",
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
 				ring: "hsl(var(--ring) / <alpha-value>)",

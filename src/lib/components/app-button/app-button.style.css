@@ -1,11 +1,11 @@
 .app-button-button_cta {
-    box-shadow: 0px 4px 0px #4d4d4d;
-    border: 0.5px solid #4d4d4d;
+    box-shadow: 0px 4px 0px var(--app-light-grey);
+    border: 0.5px solid var(--app-light-grey);
 }
 
 .app-button-button_cta:hover {
-    border: 0.5px solid #0066ff;
-    box-shadow: 0px 4px 0px #003a91;
-    background-color: #0066ff;
+    border: 0.5px solid var(--app-light-blue);
+    box-shadow: 0px 4px 0px var(--app-dark-blue);
+    background-color: var(--app-light-blue);
     color: white;
 }
