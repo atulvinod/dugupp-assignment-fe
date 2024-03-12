@@ -1,6 +1,5 @@
 <script lang="ts">
     import "./timeline.style.css";
-    import eclipseSmall from "$lib/assets/eclipse-small.svg";
     import { JobEvent, PostEvent, type TimelineBase } from "$lib/models";
     import TimelinePost from "./timeline-post.svelte";
     import TimelineJob from "./timeline-job.svelte";

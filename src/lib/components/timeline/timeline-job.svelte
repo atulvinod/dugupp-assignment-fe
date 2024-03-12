@@ -2,13 +2,14 @@
     import eclipseLarge from '$lib/assets/eclipse-large.svg';    
     import  { JobEvent, JobEventType } from '$lib/models';
     export let jobEvent: JobEvent;
+    import {ChevronUp} from 'lucide-svelte';
 </script>
 
 
 <div class="flex w-full">
             
     <div class="flex timeline-left-content-width">
-        <div class="flex-1 flex flex-col items-end mr-3">
+        <div class="flex-1 flex flex-col items-end mr-3 py-4">
             <div class="flex flex-col items-end">
                 <img src={jobEvent.companyLogoSrc} alt="job-company-logo" class="h-12"/>
                 <div class="mt-1 flex flex-col items-end">
@@ -23,8 +24,9 @@
 
         </div>
         <div
-            class="timeline-dot-container-width flex flex-col justify-center items-center"
+            class="timeline-dot-container-width flex flex-col justify-center items-center relative"
         >
+        <ChevronUp class="absolute top-0 text-app-grey"/>
             <img src={eclipseLarge} alt="timeline-eclipse" />
         </div>
     </div>
